@@ -1,0 +1,159 @@
+Tab2:AddButton({ --Adopt Me
+	Name = "" ..game:GetService("MarketplaceService"):GetProductInfo(920587237).Name.. "",
+	Icon = "rbxassetid://" ..game:GetService("MarketplaceService"):GetProductInfo(920587237).IconImageAssetId.. "",
+	Callback = function()
+		if game.PlaceId == 920587237 then
+			RightGameNotification()
+		loadstring(game:HttpGet('https://icehub.cf/IceHubLoader'))()
+      		print("Done!")
+		else
+			WrongGameNotification()
+  	end
+end    
+})
+
+Tab2:AddButton({ --A Dusty Trip
+	Name = "" ..game:GetService("MarketplaceService"):GetProductInfo(16389395869).Name.. "",
+	Icon = "rbxassetid://" ..game:GetService("MarketplaceService"):GetProductInfo(16389395869).IconImageAssetId.. "",
+	Callback = function()
+		if game.PlaceId == 16389395869 then
+			RightGameNotification()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/ADustyTrip",true))()
+      		print("Done!")
+		else
+		if game.PlaceId == 16389398622 then
+			RightGameNotification()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/ADustyTrip",true))()
+		    print("Done!")
+		else
+			WrongGameNotification()
+		end
+  	end
+end    
+})
+
+Tab2:AddButton({ --All Star Tower Defense
+	Name = "" ..game:GetService("MarketplaceService"):GetProductInfo(4996049426).Name.. "",
+	Icon = "rbxassetid://" ..game:GetService("MarketplaceService"):GetProductInfo(4996049426).IconImageAssetId.. "",
+	Callback = function()
+		if game.PlaceId == 4996049426 then
+			RightGameNotification()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/buang5516/buanghub/main/allStarTowerDefense.lua"))()
+      		print("Done!")
+		else
+			WrongGameNotification()
+  	end
+end    
+})
+
+Tab2:AddButton({ --Anime Fighters Simulator
+	Name = "" ..game:GetService("MarketplaceService"):GetProductInfo(6299805723).Name.. "",
+	Icon = "rbxassetid://" ..game:GetService("MarketplaceService"):GetProductInfo(6299805723).IconImageAssetId.. "",
+	Callback = function()
+		if game.PlaceId == 6299805723 then
+			RightGameNotification()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Loader/main/PlatiniumLoader"))()
+      		print("Done!")
+		else
+			WrongGameNotification()
+  	end
+end    
+})
+
+Tab2:AddButton({ --Anime Islands
+	Name = "" ..game:GetService("MarketplaceService"):GetProductInfo(16733754732).Name.. "",
+	Icon = "rbxassetid://" ..game:GetService("MarketplaceService"):GetProductInfo(16733754732).IconImageAssetId.. "",
+	Callback = function()
+		if game.PlaceId == 16733754732 then
+			RightGameNotification()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/AnimeIslands'))()
+      		print("Done!")
+		else
+			WrongGameNotification()
+  	end
+end    
+})
+
+Tab2:AddButton({ --Anime Racing Clicker
+	Name = "" ..game:GetService("MarketplaceService"):GetProductInfo(10714365287).Name.. "",
+	Icon = "rbxassetid://" ..game:GetService("MarketplaceService"):GetProductInfo(10714365287).IconImageAssetId.. "",
+	Callback = function()
+		if game.PlaceId == 10714365287 then
+			RightGameNotification()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0animerace", true))()
+      		print("Done!")
+		else
+			WrongGameNotification()
+  	end
+end    
+})
+
+Tab2:AddButton({ --Anime Souls Simulator
+	Name = "" ..game:GetService("MarketplaceService"):GetProductInfo(11542692507).Name.. "",
+	Icon = "rbxassetid://" ..game:GetService("MarketplaceService"):GetProductInfo(11542692507).IconImageAssetId.. "",
+	Callback = function()
+		if game.PlaceId == 11542692507 then
+			RightGameNotification()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Cxetive/OptixHub/main/loader.lua"))()
+      		print("Done!")
+		else
+			WrongGameNotification()
+  	end
+end    
+})
+
+Tab2:AddButton({ --Anime Weapon Simulator
+	Name = "" ..game:GetService("MarketplaceService"):GetProductInfo(11430505281).Name.. "",
+	Icon = "rbxassetid://" ..game:GetService("MarketplaceService"):GetProductInfo(11430505281).IconImageAssetId.. "",
+	Callback = function()
+		if game.PlaceId == 11430505281 then
+			RightGameNotification()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/eufoni02/emperor/main/anime%20weapon.lua"))()
+      		print("Done!")
+		else
+			WrongGameNotification()
+  	end
+end    
+})
+
+Tab2:AddButton({ --Answer or Die
+	Name = "" ..game:GetService("MarketplaceService"):GetProductInfo(11966456877).Name.. "",
+	Icon = "rbxassetid://" ..game:GetService("MarketplaceService"):GetProductInfo(11966456877).IconImageAssetId.. "",
+	Callback = function()
+		if game.PlaceId == 11966456877 then
+			RightGameNotification()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/jaeelin/S-Ware/main/S-WARE'))()
+      		print("Done!")
+		else
+			WrongGameNotification()
+  	end
+end    
+})
+
+Tab2:AddButton({ --Arm Wrestle Simulator
+	Name = "" ..game:GetService("MarketplaceService"):GetProductInfo(13127800756).Name.. "",
+	Icon = "rbxassetid://" ..game:GetService("MarketplaceService"):GetProductInfo(13127800756).IconImageAssetId.. "",
+	Callback = function()
+		if game.PlaceId == 13127800756 then
+			RightGameNotification()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/limaspeedy/limaspeedy/main/HubLDS"))()
+      		print("Done!")
+		else
+			WrongGameNotification()
+  	end
+end    
+})
+
+Tab2:AddButton({ --Arsenal
+	Name = "" ..game:GetService("MarketplaceService"):GetProductInfo(286090429).Name.. "",
+	Icon = "rbxassetid://" ..game:GetService("MarketplaceService"):GetProductInfo(286090429).IconImageAssetId.. "",
+	Callback = function()
+		if game.PlaceId == 286090429 then
+			RightGameNotification()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/random/main/ArsenalGodmode.lua"))()
+      		print("Done!")
+		else
+			WrongGameNotification()
+  	end
+end    
+})
